@@ -194,7 +194,7 @@ def configure(env: "Environment"):
     env.Append(CCFLAGS=["-s", "USE_PTHREADS=1"])
     env.Append(LINKFLAGS=["-s", "USE_PTHREADS=1"])
     env.Append(LINKFLAGS=["-s", "PTHREAD_POOL_SIZE=8"])
-    env.Append(LINKFLAGS=["-s", "WASM_MEM_MAX=2048MB"])
+    env.Append(LINKFLAGS=["-s", "WASM_MEM_MAX=256MB"])
 
     if env["dlink_enabled"]:
         cc_version = get_compiler_version(env)

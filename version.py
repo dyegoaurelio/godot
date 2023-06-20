@@ -1,9 +1,9 @@
 short_name = "godot"
-name = "Godot Engine"
+name = "Godot Engine Edit"
 major = 4
 minor = 0
 patch = 3
-status = "stable"
+status = "stable-edit"
 module_config = "no_raycast"
 year = 2023
 website = "https://godotengine.org"
